@@ -1,0 +1,7 @@
+#Sun Oct 23 20:41:06 ICT 2016
+base.0=C\:\\Users\\User\\AndroidStudioProjects\\PracticeAdapter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7ee180ad1fc0d80590b94b8d3bcc08ea77f92af9
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\User\\AndroidStudioProjects\\PracticeAdapter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a5aa9960297b3fa1e4fa697ce540c520df0dd3dd\\classes.dex
+base.1=C\:\\Users\\User\\AndroidStudioProjects\\PracticeAdapter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a5aa9960297b3fa1e4fa697ce540c520df0dd3dd
+file.0=C\:\\Users\\User\\AndroidStudioProjects\\PracticeAdapter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7ee180ad1fc0d80590b94b8d3bcc08ea77f92af9\\classes.dex

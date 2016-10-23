@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="No"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView" />
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="No Reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/no_reg" />
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="Nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nama" />
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="E-mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email" />
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="Phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/phone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/edit_id"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/edit_no_reg"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/edit_name"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/edit_email"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/edit_phone"
+                style="@style/EditStyle" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:id="@+id/cancel"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="24dp"
+        android:src="@drawable/ic_clear_black_24dp"
+        android:background="#ffffff" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:id="@+id/saveActionButton"
+        android:layout_alignBottom="@id/cancel"
+        android:layout_toLeftOf="@id/cancel"
+        android:src="@drawable/ic_done_black_24dp"
+        android:background="#ffffff" />
+</RelativeLayout>
